@@ -26,7 +26,7 @@ body {
 .menu a {
   color: #4d4d4d;
   height: 13px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ body {
   width: 590px;
   height: 88px;
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 90px;
   font-weight: 600;
   margin-left: -7px; }
@@ -62,7 +62,7 @@ h1 + p {
   height: 22px;
   opacity: 0.54;
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 67px; }
@@ -76,7 +76,7 @@ h1 + p {
   color: #4d4d4d;
   border: 1px solid #4d4d4d;
   text-transform: uppercase;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 16px;
   font-weight: 600; }
   .header_button:hover {
@@ -103,7 +103,7 @@ h1 + p {
 .title_2_left {
   opacity: 0.8;
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 46px;
   font-weight: 700;
   line-height: 55px;
@@ -120,7 +120,7 @@ h1 + p {
   width: 500px;
   height: 121px;
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px; }
@@ -132,7 +132,7 @@ h1 + p {
   background-color: #ffffff;
   border: 1px solid #4d4d4d;
   text-transform: uppercase;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-top: 36px; }
@@ -152,7 +152,7 @@ h1 + p {
   text-align: center;
   opacity: 0.8;
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 46px;
   font-weight: 700;
   line-height: 55px;
@@ -169,26 +169,27 @@ h1 + p {
 
 .mid_2_block {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  width: 982px;
+  width: 1150px;
   height: 343px;
-  margin: 0 auto; }
+  margin: 60px auto; }
 
 .mid_2_line {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 982px;
+  width: 300px;
   height: 151px; }
 
 .mid_2_item {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 180px; }
 
 .mid_2_item p {
   color: #4d4d4d;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -213,6 +214,69 @@ h1 + p {
   height: 1095px;
   overflow: hidden; }
 
+.mid_4_block {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1166px;
+  height: 666px; }
+
+.mid_4_item {
+  position: relative;
+  width: 368px;
+  height: 318px; }
+
+.mid_4_item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.mid_4_link {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 368px;
+  height: 318px;
+  opacity: 0; }
+  .mid_4_link:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15); }
+
+.mid_4_link a {
+  display: inline-flex;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  color: #000000;
+  text-decoration: none;
+  background-color: #ffffff; }
+
+.load_but_block {
+  text-align: center; }
+
+.load_but {
+  width: 190px;
+  height: 50px;
+  color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff; }
+  .load_but:hover {
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: 0; }
+
 .mid_5 {
   min-width: 100%;
   max-width: 1366px;
@@ -220,16 +284,75 @@ h1 + p {
   height: 711px;
   overflow: hidden; }
 
+.mid_5_ins_block {
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 759px;
+  height: 159px; }
+
+.mid_5_block {
+  margin: 57px auto;
+  border: 1px solid #212121;
+  width: 955px;
+  height: 349px; }
+
+h3 {
+  width: 569px;
+  height: 22px;
+  opacity: 0.9;
+  color: #212121;
+  font-family: "Asap", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+h3 + p {
+  width: 140px;
+  height: 11px;
+  opacity: 0.9;
+  color: #212121;
+  font-family: "Asap", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 45px;
+  text-transform: uppercase; }
+
+.mid_5_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 569px;
+  height: 155px; }
+
 .text_2 {
   width: 569px;
   height: 93px;
   opacity: 0.6;
   color: #212121;
-  font-family: 'Asap', sans-serif;
+  margin-top: 32px;
+  font-family: "Asap", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase; }
+
+.sqare {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 47px;
+  height: 13px; }
+
+.white {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #212121; }
+
+.black {
+  width: 13px;
+  height: 13px;
+  background-color: #212121; }
 
 .mid_6 {
   min-width: 100%;
@@ -254,7 +377,7 @@ h1 + p {
 .count {
   padding-top: 20px;
   color: #212121;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 30px;
   font-weight: 500;
   opacity: 0.9; }
@@ -264,7 +387,7 @@ h1 + p {
   font-size: 20px;
   color: #212121;
   font-weight: 400;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   text-transform: uppercase;
   opacity: 0.9; }
 
@@ -287,7 +410,7 @@ h1 + p {
   text-align: center;
   opacity: 0.9;
   color: #ffffff;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 46px;
   font-weight: 700;
   line-height: 60px;
@@ -347,7 +470,7 @@ h1 + p {
   box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   outline: none;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   text-transform: uppercase;
   color: #4d4d4d;
   font-size: 16px;
